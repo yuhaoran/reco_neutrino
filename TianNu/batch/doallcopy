@@ -1,0 +1,5 @@
+#!/bin/sh
+for l in list??.dat
+do
+./docopy $l &
+done

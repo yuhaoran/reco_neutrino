@@ -1,0 +1,1 @@
+nohup yhrun -p MASSIVE -N 13824 ../source_threads/cubep3m_nu > nu_try22_to0.log 2>nu_try22_to0.err &

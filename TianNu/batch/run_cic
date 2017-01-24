@@ -1,0 +1,1 @@
+nohup yhrun -p MASSIVE -N 13824  ../utils/cic_power/ngp_power_dmnu > cic0p01.log.try 2>cic0p01.err.try &

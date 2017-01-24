@@ -1,0 +1,7 @@
+#!/bin/sh
+hnamelist=$1
+for h in `cat $hnamelist`
+do 
+echo $h
+ssh -o StrictHostKeyChecking=no $h "./copyscript"
+done

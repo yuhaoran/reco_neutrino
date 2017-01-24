@@ -1,0 +1,5 @@
+#!/bin/sh
+for h in `cat hname.dat`
+do 
+ssh -o StrictHostKeyChecking=no $h "pwd"
+done
